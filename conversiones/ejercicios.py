@@ -20,3 +20,23 @@ if len(dni)==8:
   input("Ingrese su Nombre y Apellido: ")
 else:
   print("error")
+
+##Crear un programa qye pida al usuario ingresar su primer apellido
+##tiene en como ultimos carateres las letras --ez-- mostrar un mensaje que diga eres casi español
+##si los caravteres finales son --es-- que diga eres casi peruano
+apellido=input("ingrese su apellido: ")
+if apellido[-2:]=="ez":
+  print("eres casi español")
+elif apellido[-2:]=="es":
+  print("eres casi peruano")
+else:
+  print("eres un alien")
+
+##hacer un programa que le pida aun usuario su dni compruebe que sea de 8 digitos, si
+##si es correcto que sume el primer numero y el ultimo numerodel dni, mostrar porla 
+##pantalla la suma y el resultado
+dnixd=input("ingrese su dni: ")
+if len(dnixd)==8:
+  print("es correcto")
+elif dnixd==9:
+  print(dni)
