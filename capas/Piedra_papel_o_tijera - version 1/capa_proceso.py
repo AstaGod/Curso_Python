@@ -1,5 +1,5 @@
-import fase1
-if fase1.numerjugar==2:
+import capa_entrada
+if capa_entrada.numerjugar==2:
  nombre1=input("Ingresa tu nombre jugador 1: ")
  nombre2=input("Ingresa tu nombre jugador 2: ")
  jugador1=input(f"{nombre1} ingrese entre piedra,papel o tijera: ")
