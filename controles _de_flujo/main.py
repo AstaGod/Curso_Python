@@ -52,3 +52,26 @@ for color in colores:
      print("encontrado")
      break
     print(color)
+
+lista=[]
+print(lista)
+primerDato=input("ingrese una fruta: ")
+lista.append(primerDato)
+print(lista)
+segundoDato=input("ingrese una segunda fruta: ")
+lista.append(segundoDato)
+print(lista)
+
+## crear un programa que me deje ingresar datos en una lista vacia
+## en caso el usuario ingrese la palabra "si" el programa dejara
+## de pedir datos y me mostrar loa lilsta con todos los datos ingresados
+
+lista2=[]
+while True:
+    segundato=input("ingrese una palabra: ")
+    if segundato == "si":
+     
+     break
+    lista2.append(segundato)
+
+print(lista2)
